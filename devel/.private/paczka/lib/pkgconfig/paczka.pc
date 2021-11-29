@@ -1,0 +1,8 @@
+prefix=/home/matsantos/catkin_ws/devel/.private/paczka
+
+Name: paczka
+Description: Description of paczka
+Version: 0.0.0
+Cflags: -I/home/matsantos/catkin_ws/devel/.private/paczka/include
+Libs: -L${prefix}/lib 
+Requires: 

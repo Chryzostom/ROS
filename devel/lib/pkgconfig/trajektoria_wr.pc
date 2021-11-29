@@ -1,0 +1,1 @@
+/home/matsantos/catkin_ws/devel/.private/trajektoria_wr/lib/pkgconfig/trajektoria_wr.pc

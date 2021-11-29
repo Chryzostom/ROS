@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro">
+
+  <xacro:macro name="ur_gazebo" params="prefix ns:=/">
+
+    <gazebo>
+      <plugin name="${prefix}_ros_control" filename="libgazebo_ros_control.so">
+        <legacyModeNS>true</legacyModeNS>
+        <robotNamespace>${ns}</robotNamespace>
+        <robotParam>${ns}/robot_description</robotParam>
+      </plugin>
+    </gazebo>
+    
+  </xacro:macro>
+
+</robot>

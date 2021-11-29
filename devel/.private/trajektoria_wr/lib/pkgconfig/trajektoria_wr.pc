@@ -1,0 +1,8 @@
+prefix=/home/matsantos/catkin_ws/devel/.private/trajektoria_wr
+
+Name: trajektoria_wr
+Description: Description of trajektoria_wr
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

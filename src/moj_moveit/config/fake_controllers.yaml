@@ -1,0 +1,13 @@
+controller_list:
+  - name: fake_ur5_controller
+    type: $(arg execution_type)
+    joints:
+      - base
+      - shoulder
+      - elbow
+      - wrist_1
+      - wrist_2
+      - wrist_3
+initial:  # Define initial robot poses.
+  - group: ur5
+    pose: home

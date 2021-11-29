@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../devel/lib/python2.7/dist-packages" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/paczka/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/projekt/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/trajektoria_wr/src" isTestSource="false" />
+    </content>
+    <content url="file:///opt/ros/melodic/lib/python2.7/dist-packages">
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/moveit_ros_planning_interface" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/moveit_ros_visualization" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/bondpy" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/bondpy-1.8.5.egg-info" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/camera_calibration" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/camera_calibration_parsers" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/catkin" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/catkin-0.7.29.egg-info" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/angles" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/controller_manager" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/diagnostic_analysis" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/diagnostic_common_diagnostics" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/diagnostic_updater" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/eigenpy" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/gencpp-0.6.5.egg-info" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/geneus" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/genlisp" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/genmsg" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/genmsg-0.5.16.egg-info" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/gennodejs" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/genpy" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/genpy-0.6.16.egg-info" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/gencpp" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/image_geometry" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/interactive_markers" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/interactive_markers-1.11.5.egg-info" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/joint_state_publisher" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/joint_state_publisher_gui" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/kdl_parser_py" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/laser_geometry" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/message_filters" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/moveit_commander" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/moveit_core-1.0.8.egg-info" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/python_qt_binding" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/qt_dotgraph" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/qt_dotgraph-0.4.2.egg-info" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/qt_gui" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/qt_gui-0.4.2.egg-info" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/qt_gui_cpp" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/qt_gui_cpp-0.4.2.egg-info" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/qt_gui_py_common" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/qt_gui_py_common-0.4.2.egg-info" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/resource_retriever" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/ros" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rosbag" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rosboost_cfg" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rosboost_cfg-1.14.9.egg-info" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rosclean" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rosclean-1.14.9.egg-info" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/roslaunch" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/roscreate-1.14.9.egg-info" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/roscreate" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/roslib" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/roslib-1.14.9.egg-info" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/roslint" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/roslz4" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rosmake" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rosmake-1.14.9.egg-info" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rosmaster" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rosmsg" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rosnode" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rosparam" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rosservice" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rostest" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rostopic" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rosunit" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rosunit-1.14.9.egg-info" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/roswtf" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rqt_action" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rqt_bag_plugins" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rqt_dep" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rqt_graph" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rqt_gui" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rqt_gui_py" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rqt_launch" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rqt_logger_level" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rqt_moveit" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rqt_moveit-0.5.10.egg-info" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rqt_msg" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rqt_nav_view" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rqt_pose_view" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rqt_publisher" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rqt_py_console" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rqt_reconfigure" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rqt_reconfigure-0.5.4.egg-info" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rqt_robot_dashboard" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rqt_robot_monitor" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rqt_robot_monitor-0.5.13.egg-info" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rqt_robot_steering" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rqt_runtime_monitor" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rqt_rviz-0.7.0.egg-info" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rqt_service_caller" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rqt_shell" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rqt_srv" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rqt_tf_tree" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rqt_top" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rqt_topic" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rqt_web" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/rviz-1.13.21.egg-info" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/sensor_msgs-1.12.8.egg-info" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/smach" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/smach_ros" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/smclib" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/smclib-1.8.5.egg-info" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/srdfdom" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/srdfdom-0.5.2.egg-info" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/tf2_kdl" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/tf2_geometry_msgs" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/tf2_ros" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/tf_conversions" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/tf2_py" />
+      <excludeFolder url="file:///opt/ros/melodic/lib/python2.7/dist-packages/urdfdom_py-0.4.6.egg-info" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="workspace" level="project" />
+    <orderEntry type="library" name="ROS" level="project" />
+  </component>
+  <component name="PyDocumentationSettings">
+    <option name="format" value="PLAIN" />
+    <option name="myDocStringFormat" value="Plain" />
+  </component>
+</module>
