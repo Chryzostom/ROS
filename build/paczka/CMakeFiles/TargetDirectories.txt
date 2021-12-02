@@ -43,6 +43,7 @@
 /home/matsantos/catkin_ws/build/paczka/CMakeFiles/roscpp_generate_messages_py.dir
 /home/matsantos/catkin_ws/build/paczka/CMakeFiles/_paczka_generate_messages_check_deps_MovePTP_P.dir
 /home/matsantos/catkin_ws/build/paczka/CMakeFiles/paczka_generate_messages_py.dir
+/home/matsantos/catkin_ws/build/paczka/CMakeFiles/_paczka_generate_messages_check_deps_Stop.dir
 /home/matsantos/catkin_ws/build/paczka/CMakeFiles/_paczka_generate_messages_check_deps_MoveLin_P.dir
 /home/matsantos/catkin_ws/build/paczka/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
 /home/matsantos/catkin_ws/build/paczka/CMakeFiles/geometry_msgs_generate_messages_lisp.dir

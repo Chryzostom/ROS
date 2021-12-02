@@ -57,6 +57,7 @@ CMakeFiles/paczka_generate_messages_eus: /home/matsantos/catkin_ws/devel/.privat
 CMakeFiles/paczka_generate_messages_eus: /home/matsantos/catkin_ws/devel/.private/paczka/share/roseus/ros/paczka/srv/MoveLin_Q.l
 CMakeFiles/paczka_generate_messages_eus: /home/matsantos/catkin_ws/devel/.private/paczka/share/roseus/ros/paczka/srv/MovePTP_Q.l
 CMakeFiles/paczka_generate_messages_eus: /home/matsantos/catkin_ws/devel/.private/paczka/share/roseus/ros/paczka/srv/MovePTP_P.l
+CMakeFiles/paczka_generate_messages_eus: /home/matsantos/catkin_ws/devel/.private/paczka/share/roseus/ros/paczka/srv/Stop.l
 CMakeFiles/paczka_generate_messages_eus: /home/matsantos/catkin_ws/devel/.private/paczka/share/roseus/ros/paczka/manifest.l
 
 
@@ -80,8 +81,13 @@ CMakeFiles/paczka_generate_messages_eus: /home/matsantos/catkin_ws/devel/.privat
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matsantos/catkin_ws/build/paczka/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp code from paczka/MovePTP_P.srv"
 	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/matsantos/catkin_ws/src/paczka/srv/MovePTP_P.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p paczka -o /home/matsantos/catkin_ws/devel/.private/paczka/share/roseus/ros/paczka/srv
 
+/home/matsantos/catkin_ws/devel/.private/paczka/share/roseus/ros/paczka/srv/Stop.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/matsantos/catkin_ws/devel/.private/paczka/share/roseus/ros/paczka/srv/Stop.l: /home/matsantos/catkin_ws/src/paczka/srv/Stop.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matsantos/catkin_ws/build/paczka/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating EusLisp code from paczka/Stop.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/matsantos/catkin_ws/src/paczka/srv/Stop.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p paczka -o /home/matsantos/catkin_ws/devel/.private/paczka/share/roseus/ros/paczka/srv
+
 /home/matsantos/catkin_ws/devel/.private/paczka/share/roseus/ros/paczka/manifest.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matsantos/catkin_ws/build/paczka/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating EusLisp manifest code for paczka"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matsantos/catkin_ws/build/paczka/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating EusLisp manifest code for paczka"
 	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/matsantos/catkin_ws/devel/.private/paczka/share/roseus/ros/paczka paczka std_msgs
 
 paczka_generate_messages_eus: CMakeFiles/paczka_generate_messages_eus
@@ -89,6 +95,7 @@ paczka_generate_messages_eus: /home/matsantos/catkin_ws/devel/.private/paczka/sh
 paczka_generate_messages_eus: /home/matsantos/catkin_ws/devel/.private/paczka/share/roseus/ros/paczka/srv/MoveLin_Q.l
 paczka_generate_messages_eus: /home/matsantos/catkin_ws/devel/.private/paczka/share/roseus/ros/paczka/srv/MovePTP_Q.l
 paczka_generate_messages_eus: /home/matsantos/catkin_ws/devel/.private/paczka/share/roseus/ros/paczka/srv/MovePTP_P.l
+paczka_generate_messages_eus: /home/matsantos/catkin_ws/devel/.private/paczka/share/roseus/ros/paczka/srv/Stop.l
 paczka_generate_messages_eus: /home/matsantos/catkin_ws/devel/.private/paczka/share/roseus/ros/paczka/manifest.l
 paczka_generate_messages_eus: CMakeFiles/paczka_generate_messages_eus.dir/build.make
 

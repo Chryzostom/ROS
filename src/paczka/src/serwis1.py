@@ -2,7 +2,7 @@
 
 import rospy
 import socket
-from paczka.srv import MovePTP_Q, MovePTP_P, MoveLin_Q, MoveLin_P
+from paczka.srv import MovePTP_Q, MovePTP_P, MoveLin_Q, MoveLin_P, Stop
 from std_msgs.msg import Float32
 import math
 
@@ -26,6 +26,10 @@ def handle_MovePTP_P(req):
     if len(req.q) == 6:
         rospy.loginfo("Podano prawidlowa pozycje")
         q = list(req.q)
+        for idx, qr in enumerate(q):
+            if (len(q) - idx) <= 3:
+                qr = qr * (math.pi / 180)
+                q[idx] = qr
         cmd = "movej(p{})\n".format(q)
     else:
         rospy.loginfo("Podano nieprawidlowa pozycje")
@@ -44,13 +48,20 @@ def handle_MoveLin_Q(req):
 def handle_MoveLin_P(req):
     if len(req.q) == 6:
         rospy.loginfo("Podano prawidlowa pozycje")
-        qd = list(req.q)
-        qr = [x * (math.pi / 180) for x in qd]
-        cmd = "movel(p{})\n".format(qr)
+        q = list(req.q)
+        for idx, qr in enumerate(q):
+            if (len(q) - idx) <= 3:
+                qr = qr * (math.pi / 180)
+                q[idx] = qr
+        cmd = "movel(p{})\n".format(q)
     else:
         rospy.loginfo("Podano nieprawidlowa pozycje")
     connect(cmd)
 
+def handle_Stop(req):
+    a = req.a
+    cmd = "stopj({})\n".format(a)
+    connect(cmd)
 
 def main():
     rospy.init_node('serwis')
@@ -58,6 +69,7 @@ def main():
     srv1 = rospy.Service('MovePTP_P', MovePTP_P, handle_MovePTP_P)
     srv2 = rospy.Service('MoveLin_Q', MoveLin_Q, handle_MoveLin_Q)
     srv3 = rospy.Service('MoveLin_P', MoveLin_P, handle_MoveLin_P)
+    srv4 = rospy.Service('Stop', Stop, handle_Stop)
     rospy.spin()
 
 if __name__=="__main__":

@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "/home/matsantos/catkin_ws/devel/.private/paczka/share/roseus/ros/paczka/srv/MoveLin_Q.l"
   "/home/matsantos/catkin_ws/devel/.private/paczka/share/roseus/ros/paczka/srv/MovePTP_Q.l"
   "/home/matsantos/catkin_ws/devel/.private/paczka/share/roseus/ros/paczka/srv/MovePTP_P.l"
+  "/home/matsantos/catkin_ws/devel/.private/paczka/share/roseus/ros/paczka/srv/Stop.l"
   "/home/matsantos/catkin_ws/devel/.private/paczka/share/roseus/ros/paczka/manifest.l"
 )
 

@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "/home/matsantos/catkin_ws/devel/.private/paczka/share/common-lisp/ros/paczka/srv/MoveLin_Q.lisp"
   "/home/matsantos/catkin_ws/devel/.private/paczka/share/common-lisp/ros/paczka/srv/MovePTP_Q.lisp"
   "/home/matsantos/catkin_ws/devel/.private/paczka/share/common-lisp/ros/paczka/srv/MovePTP_P.lisp"
+  "/home/matsantos/catkin_ws/devel/.private/paczka/share/common-lisp/ros/paczka/srv/Stop.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

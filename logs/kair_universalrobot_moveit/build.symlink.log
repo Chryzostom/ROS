@@ -1,0 +1,3 @@
+Symlinking /home/matsantos/catkin_ws/devel/lib/pkgconfig/kair_universalrobot_moveit.pc
+Symlinking /home/matsantos/catkin_ws/devel/share/kair_universalrobot_moveit/cmake/kair_universalrobot_moveitConfig-version.cmake
+Symlinking /home/matsantos/catkin_ws/devel/share/kair_universalrobot_moveit/cmake/kair_universalrobot_moveitConfig.cmake

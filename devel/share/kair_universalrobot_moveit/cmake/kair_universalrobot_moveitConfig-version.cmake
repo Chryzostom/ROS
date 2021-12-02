@@ -1,0 +1,1 @@
+/home/matsantos/catkin_ws/devel/.private/kair_universalrobot_moveit/share/kair_universalrobot_moveit/cmake/kair_universalrobot_moveitConfig-version.cmake

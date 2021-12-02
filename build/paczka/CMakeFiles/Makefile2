@@ -71,7 +71,7 @@ CMakeFiles/paczka_gennodejs.dir/all: CMakeFiles/paczka_generate_messages_nodejs.
 
 # Build rule for subdir invocation for target.
 CMakeFiles/paczka_gennodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/paczka_gennodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 0
 .PHONY : CMakeFiles/paczka_gennodejs.dir/rule
@@ -103,7 +103,7 @@ CMakeFiles/paczka_geneus.dir/all: CMakeFiles/paczka_generate_messages_eus.dir/al
 
 # Build rule for subdir invocation for target.
 CMakeFiles/paczka_geneus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/paczka_geneus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 0
 .PHONY : CMakeFiles/paczka_geneus.dir/rule
@@ -129,17 +129,18 @@ clean: CMakeFiles/paczka_geneus.dir/clean
 # All Build rule for target.
 CMakeFiles/paczka_generate_messages_eus.dir/all: CMakeFiles/std_msgs_generate_messages_eus.dir/all
 CMakeFiles/paczka_generate_messages_eus.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_MovePTP_P.dir/all
+CMakeFiles/paczka_generate_messages_eus.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_Stop.dir/all
 CMakeFiles/paczka_generate_messages_eus.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_MoveLin_P.dir/all
 CMakeFiles/paczka_generate_messages_eus.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_MoveLin_Q.dir/all
 CMakeFiles/paczka_generate_messages_eus.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_MovePTP_Q.dir/all
 	$(MAKE) -f CMakeFiles/paczka_generate_messages_eus.dir/build.make CMakeFiles/paczka_generate_messages_eus.dir/depend
 	$(MAKE) -f CMakeFiles/paczka_generate_messages_eus.dir/build.make CMakeFiles/paczka_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matsantos/catkin_ws/build/paczka/CMakeFiles --progress-num=16,17,18,19,20 "Built target paczka_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matsantos/catkin_ws/build/paczka/CMakeFiles --progress-num=17,18,19,20,21,22 "Built target paczka_generate_messages_eus"
 .PHONY : CMakeFiles/paczka_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/paczka_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/paczka_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 0
 .PHONY : CMakeFiles/paczka_generate_messages_eus.dir/rule
@@ -165,17 +166,18 @@ clean: CMakeFiles/paczka_generate_messages_eus.dir/clean
 # All Build rule for target.
 CMakeFiles/paczka_generate_messages_cpp.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 CMakeFiles/paczka_generate_messages_cpp.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_MovePTP_P.dir/all
+CMakeFiles/paczka_generate_messages_cpp.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_Stop.dir/all
 CMakeFiles/paczka_generate_messages_cpp.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_MoveLin_P.dir/all
 CMakeFiles/paczka_generate_messages_cpp.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_MoveLin_Q.dir/all
 CMakeFiles/paczka_generate_messages_cpp.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_MovePTP_Q.dir/all
 	$(MAKE) -f CMakeFiles/paczka_generate_messages_cpp.dir/build.make CMakeFiles/paczka_generate_messages_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/paczka_generate_messages_cpp.dir/build.make CMakeFiles/paczka_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matsantos/catkin_ws/build/paczka/CMakeFiles --progress-num=12,13,14,15 "Built target paczka_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matsantos/catkin_ws/build/paczka/CMakeFiles --progress-num=12,13,14,15,16 "Built target paczka_generate_messages_cpp"
 .PHONY : CMakeFiles/paczka_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/paczka_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/paczka_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 0
 .PHONY : CMakeFiles/paczka_generate_messages_cpp.dir/rule
@@ -367,7 +369,7 @@ CMakeFiles/paczka_genlisp.dir/all: CMakeFiles/paczka_generate_messages_lisp.dir/
 
 # Build rule for subdir invocation for target.
 CMakeFiles/paczka_genlisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/paczka_genlisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 0
 .PHONY : CMakeFiles/paczka_genlisp.dir/rule
@@ -847,7 +849,7 @@ CMakeFiles/paczka_genpy.dir/all: CMakeFiles/paczka_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/paczka_genpy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/paczka_genpy.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 0
 .PHONY : CMakeFiles/paczka_genpy.dir/rule
@@ -872,18 +874,19 @@ clean: CMakeFiles/paczka_genpy.dir/clean
 
 # All Build rule for target.
 CMakeFiles/paczka_generate_messages_nodejs.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_MovePTP_P.dir/all
+CMakeFiles/paczka_generate_messages_nodejs.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_Stop.dir/all
 CMakeFiles/paczka_generate_messages_nodejs.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_MoveLin_P.dir/all
 CMakeFiles/paczka_generate_messages_nodejs.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_MoveLin_Q.dir/all
 CMakeFiles/paczka_generate_messages_nodejs.dir/all: CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/paczka_generate_messages_nodejs.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_MovePTP_Q.dir/all
 	$(MAKE) -f CMakeFiles/paczka_generate_messages_nodejs.dir/build.make CMakeFiles/paczka_generate_messages_nodejs.dir/depend
 	$(MAKE) -f CMakeFiles/paczka_generate_messages_nodejs.dir/build.make CMakeFiles/paczka_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matsantos/catkin_ws/build/paczka/CMakeFiles --progress-num=25,26,27,28 "Built target paczka_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matsantos/catkin_ws/build/paczka/CMakeFiles --progress-num=28,29,30,31,32 "Built target paczka_generate_messages_nodejs"
 .PHONY : CMakeFiles/paczka_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/paczka_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/paczka_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 0
 .PHONY : CMakeFiles/paczka_generate_messages_nodejs.dir/rule
@@ -1020,7 +1023,7 @@ all: CMakeFiles/paczka_generate_messages.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/paczka_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 27
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/paczka_generate_messages.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 0
 .PHONY : CMakeFiles/paczka_generate_messages.dir/rule
@@ -1110,17 +1113,18 @@ clean: CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
 # All Build rule for target.
 CMakeFiles/paczka_generate_messages_lisp.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 CMakeFiles/paczka_generate_messages_lisp.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_MovePTP_P.dir/all
+CMakeFiles/paczka_generate_messages_lisp.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_Stop.dir/all
 CMakeFiles/paczka_generate_messages_lisp.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_MoveLin_P.dir/all
 CMakeFiles/paczka_generate_messages_lisp.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_MoveLin_Q.dir/all
 CMakeFiles/paczka_generate_messages_lisp.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_MovePTP_Q.dir/all
 	$(MAKE) -f CMakeFiles/paczka_generate_messages_lisp.dir/build.make CMakeFiles/paczka_generate_messages_lisp.dir/depend
 	$(MAKE) -f CMakeFiles/paczka_generate_messages_lisp.dir/build.make CMakeFiles/paczka_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matsantos/catkin_ws/build/paczka/CMakeFiles --progress-num=21,22,23,24 "Built target paczka_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matsantos/catkin_ws/build/paczka/CMakeFiles --progress-num=23,24,25,26,27 "Built target paczka_generate_messages_lisp"
 .PHONY : CMakeFiles/paczka_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/paczka_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/paczka_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 0
 .PHONY : CMakeFiles/paczka_generate_messages_lisp.dir/rule
@@ -1274,17 +1278,18 @@ clean: CMakeFiles/_paczka_generate_messages_check_deps_MovePTP_P.dir/clean
 # All Build rule for target.
 CMakeFiles/paczka_generate_messages_py.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
 CMakeFiles/paczka_generate_messages_py.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_MovePTP_P.dir/all
+CMakeFiles/paczka_generate_messages_py.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_Stop.dir/all
 CMakeFiles/paczka_generate_messages_py.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_MoveLin_P.dir/all
 CMakeFiles/paczka_generate_messages_py.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_MoveLin_Q.dir/all
 CMakeFiles/paczka_generate_messages_py.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_MovePTP_Q.dir/all
 	$(MAKE) -f CMakeFiles/paczka_generate_messages_py.dir/build.make CMakeFiles/paczka_generate_messages_py.dir/depend
 	$(MAKE) -f CMakeFiles/paczka_generate_messages_py.dir/build.make CMakeFiles/paczka_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matsantos/catkin_ws/build/paczka/CMakeFiles --progress-num=29,30,31,32,33 "Built target paczka_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matsantos/catkin_ws/build/paczka/CMakeFiles --progress-num=33,34,35,36,37,38 "Built target paczka_generate_messages_py"
 .PHONY : CMakeFiles/paczka_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/paczka_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/paczka_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 0
 .PHONY : CMakeFiles/paczka_generate_messages_py.dir/rule
@@ -1301,6 +1306,38 @@ CMakeFiles/paczka_generate_messages_py.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/paczka_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/_paczka_generate_messages_check_deps_Stop.dir
+
+# All Build rule for target.
+CMakeFiles/_paczka_generate_messages_check_deps_Stop.dir/all:
+	$(MAKE) -f CMakeFiles/_paczka_generate_messages_check_deps_Stop.dir/build.make CMakeFiles/_paczka_generate_messages_check_deps_Stop.dir/depend
+	$(MAKE) -f CMakeFiles/_paczka_generate_messages_check_deps_Stop.dir/build.make CMakeFiles/_paczka_generate_messages_check_deps_Stop.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matsantos/catkin_ws/build/paczka/CMakeFiles --progress-num= "Built target _paczka_generate_messages_check_deps_Stop"
+.PHONY : CMakeFiles/_paczka_generate_messages_check_deps_Stop.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/_paczka_generate_messages_check_deps_Stop.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/_paczka_generate_messages_check_deps_Stop.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 0
+.PHONY : CMakeFiles/_paczka_generate_messages_check_deps_Stop.dir/rule
+
+# Convenience name for target.
+_paczka_generate_messages_check_deps_Stop: CMakeFiles/_paczka_generate_messages_check_deps_Stop.dir/rule
+
+.PHONY : _paczka_generate_messages_check_deps_Stop
+
+# clean rule for target.
+CMakeFiles/_paczka_generate_messages_check_deps_Stop.dir/clean:
+	$(MAKE) -f CMakeFiles/_paczka_generate_messages_check_deps_Stop.dir/build.make CMakeFiles/_paczka_generate_messages_check_deps_Stop.dir/clean
+.PHONY : CMakeFiles/_paczka_generate_messages_check_deps_Stop.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/_paczka_generate_messages_check_deps_Stop.dir/clean
 
 .PHONY : clean
 
@@ -1444,7 +1481,7 @@ CMakeFiles/paczka_gencpp.dir/all: CMakeFiles/paczka_generate_messages_cpp.dir/al
 
 # Build rule for subdir invocation for target.
 CMakeFiles/paczka_gencpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/paczka_gencpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/matsantos/catkin_ws/build/paczka/CMakeFiles 0
 .PHONY : CMakeFiles/paczka_gencpp.dir/rule

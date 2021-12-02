@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/matsantos/catkin_ws/src/paczka/srv/MovePTP_Q.srv;/home/matsantos/catkin_ws/src/paczka/srv/MovePTP_P.srv;/home/matsantos/catkin_ws/src/paczka/srv/MoveLin_Q.srv;/home/matsantos/catkin_ws/src/paczka/srv/MoveLin_P.srv"
+services_str = "/home/matsantos/catkin_ws/src/paczka/srv/MovePTP_Q.srv;/home/matsantos/catkin_ws/src/paczka/srv/MovePTP_P.srv;/home/matsantos/catkin_ws/src/paczka/srv/MoveLin_Q.srv;/home/matsantos/catkin_ws/src/paczka/srv/MoveLin_P.srv;/home/matsantos/catkin_ws/src/paczka/srv/Stop.srv"
 pkg_name = "paczka"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

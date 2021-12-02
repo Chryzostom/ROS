@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "/home/matsantos/catkin_ws/devel/.private/paczka/include/paczka/MoveLin_Q.h"
   "/home/matsantos/catkin_ws/devel/.private/paczka/include/paczka/MovePTP_Q.h"
   "/home/matsantos/catkin_ws/devel/.private/paczka/include/paczka/MovePTP_P.h"
+  "/home/matsantos/catkin_ws/devel/.private/paczka/include/paczka/Stop.h"
 )
 
 # Per-language clean rules from dependency scanning.

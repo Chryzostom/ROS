@@ -1,0 +1,3 @@
+Symlinking /home/matsantos/catkin_ws/devel/lib/pkgconfig/moj_moveit.pc
+Symlinking /home/matsantos/catkin_ws/devel/share/moj_moveit/cmake/moj_moveitConfig.cmake
+Symlinking /home/matsantos/catkin_ws/devel/share/moj_moveit/cmake/moj_moveitConfig-version.cmake

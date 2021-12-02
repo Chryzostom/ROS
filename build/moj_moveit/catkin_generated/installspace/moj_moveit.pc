@@ -1,0 +1,8 @@
+prefix=/home/matsantos/catkin_ws/install
+
+Name: moj_moveit
+Description: Description of moj_moveit
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

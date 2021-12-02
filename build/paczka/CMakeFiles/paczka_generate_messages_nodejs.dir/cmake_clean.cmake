@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "/home/matsantos/catkin_ws/devel/.private/paczka/share/gennodejs/ros/paczka/srv/MoveLin_Q.js"
   "/home/matsantos/catkin_ws/devel/.private/paczka/share/gennodejs/ros/paczka/srv/MovePTP_Q.js"
   "/home/matsantos/catkin_ws/devel/.private/paczka/share/gennodejs/ros/paczka/srv/MovePTP_P.js"
+  "/home/matsantos/catkin_ws/devel/.private/paczka/share/gennodejs/ros/paczka/srv/Stop.js"
 )
 
 # Per-language clean rules from dependency scanning.

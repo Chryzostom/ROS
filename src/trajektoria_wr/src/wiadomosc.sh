@@ -20,12 +20,14 @@ goal:
     joint_names: ['link6', 'link5', 'link4', 'link3', 'link2', 'link1']
     points:
     - positions: [0, 0, 0, 0, 0, 0]
-      velocities: [0]
-      accelerations: [0]
-      effort: [0]
+      effort: []
       time_from_start: {secs: 0, nsecs: 0}
-    - positions: [2, 2, 2, 2, 2, 2]
-      time_from_start: {secs: 1, nsecs: 0}
+    - positions: [0, -0.3, 1, 1.5, 1, 1]
+      effort: []
+      time_from_start: {secs: 3, nsecs: 0}
+    - positions: [1, -0.6, 2, 1, 1, 2]
+      effort: []
+      time_from_start: {secs: 6, nsecs: 0}
   path_tolerance:
   - {name: '', position: 0.0, velocity: 0.0, acceleration: 0.0}
   goal_tolerance:

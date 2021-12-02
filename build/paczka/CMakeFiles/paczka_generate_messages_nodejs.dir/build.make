@@ -57,6 +57,7 @@ CMakeFiles/paczka_generate_messages_nodejs: /home/matsantos/catkin_ws/devel/.pri
 CMakeFiles/paczka_generate_messages_nodejs: /home/matsantos/catkin_ws/devel/.private/paczka/share/gennodejs/ros/paczka/srv/MoveLin_Q.js
 CMakeFiles/paczka_generate_messages_nodejs: /home/matsantos/catkin_ws/devel/.private/paczka/share/gennodejs/ros/paczka/srv/MovePTP_Q.js
 CMakeFiles/paczka_generate_messages_nodejs: /home/matsantos/catkin_ws/devel/.private/paczka/share/gennodejs/ros/paczka/srv/MovePTP_P.js
+CMakeFiles/paczka_generate_messages_nodejs: /home/matsantos/catkin_ws/devel/.private/paczka/share/gennodejs/ros/paczka/srv/Stop.js
 
 
 /home/matsantos/catkin_ws/devel/.private/paczka/share/gennodejs/ros/paczka/srv/MoveLin_P.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
@@ -79,11 +80,17 @@ CMakeFiles/paczka_generate_messages_nodejs: /home/matsantos/catkin_ws/devel/.pri
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matsantos/catkin_ws/build/paczka/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Javascript code from paczka/MovePTP_P.srv"
 	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/matsantos/catkin_ws/src/paczka/srv/MovePTP_P.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p paczka -o /home/matsantos/catkin_ws/devel/.private/paczka/share/gennodejs/ros/paczka/srv
 
+/home/matsantos/catkin_ws/devel/.private/paczka/share/gennodejs/ros/paczka/srv/Stop.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/matsantos/catkin_ws/devel/.private/paczka/share/gennodejs/ros/paczka/srv/Stop.js: /home/matsantos/catkin_ws/src/paczka/srv/Stop.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/matsantos/catkin_ws/build/paczka/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from paczka/Stop.srv"
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/matsantos/catkin_ws/src/paczka/srv/Stop.srv -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p paczka -o /home/matsantos/catkin_ws/devel/.private/paczka/share/gennodejs/ros/paczka/srv
+
 paczka_generate_messages_nodejs: CMakeFiles/paczka_generate_messages_nodejs
 paczka_generate_messages_nodejs: /home/matsantos/catkin_ws/devel/.private/paczka/share/gennodejs/ros/paczka/srv/MoveLin_P.js
 paczka_generate_messages_nodejs: /home/matsantos/catkin_ws/devel/.private/paczka/share/gennodejs/ros/paczka/srv/MoveLin_Q.js
 paczka_generate_messages_nodejs: /home/matsantos/catkin_ws/devel/.private/paczka/share/gennodejs/ros/paczka/srv/MovePTP_Q.js
 paczka_generate_messages_nodejs: /home/matsantos/catkin_ws/devel/.private/paczka/share/gennodejs/ros/paczka/srv/MovePTP_P.js
+paczka_generate_messages_nodejs: /home/matsantos/catkin_ws/devel/.private/paczka/share/gennodejs/ros/paczka/srv/Stop.js
 paczka_generate_messages_nodejs: CMakeFiles/paczka_generate_messages_nodejs.dir/build.make
 
 .PHONY : paczka_generate_messages_nodejs

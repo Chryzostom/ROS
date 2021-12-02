@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/matsantos/catkin_ws/devel/.private/kair_universalrobot/setup.sh

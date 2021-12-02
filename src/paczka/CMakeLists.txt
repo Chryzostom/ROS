@@ -63,6 +63,7 @@ find_package(catkin REQUIRED COMPONENTS
    MovePTP_P.srv
    MoveLin_Q.srv
    MoveLin_P.srv
+   Stop.srv
  )
 
 ## Generate actions in the 'action' folder

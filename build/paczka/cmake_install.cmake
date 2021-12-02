@@ -134,6 +134,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/matsantos/catkin_ws/src/paczka/srv/MovePTP_P.srv"
     "/home/matsantos/catkin_ws/src/paczka/srv/MoveLin_Q.srv"
     "/home/matsantos/catkin_ws/src/paczka/srv/MoveLin_P.srv"
+    "/home/matsantos/catkin_ws/src/paczka/srv/Stop.srv"
     )
 endif()
 
