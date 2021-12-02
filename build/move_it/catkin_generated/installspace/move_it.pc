@@ -1,0 +1,8 @@
+prefix=/home/matsantos/catkin_ws/install
+
+Name: move_it
+Description: Description of move_it
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

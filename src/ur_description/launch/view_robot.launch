@@ -12,5 +12,7 @@
   <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rvizconfig)" required="true"/>
 
   <node name="ur5" pkg="paczka" type="ur5.py"/>
+  <node name="serwisy" pkg="paczka" type="serwis1.py"/>
+  <node name="trajektoria_wr" pkg="trajektoria_wr" type="wezel_ur.py"/>
 
 </launch>
