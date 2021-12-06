@@ -9,12 +9,12 @@
     <color rgba="1 0 0 1"/>
   </material>
   
-  <material name="white">
-    <color rgba="1 1 1 1"/>
+  <material name="blue">
+    <color rgba="0 0 1 1"/>
   </material>
 
  
-  
+
   <link name="obudowa">
     <visual>
       <geometry>
@@ -30,7 +30,7 @@
       <origin rpy="0 0 0" xyz="0 0 0"/>
     </collision>
     <inertial>
-      <mass value="1.0"/>
+      <mass value="10.0"/>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
     </inertial>
@@ -44,14 +44,14 @@
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <material name="red"/>
     </visual>
-    <visual>
+    <collision>
       <geometry>
         <cylinder radius="0.1" length="0.05"/>
       </geometry>
       <origin rpy="0 0 0" xyz="0 0 0"/>
-    </visual>
+    </collision>
     <inertial>
-      <mass value="1.0"/>
+      <mass value="2.5"/>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
     </inertial>
@@ -60,10 +60,10 @@
   <joint name="z_kolo_lewe" type="continuous">
     <parent link="obudowa"/>
     <child link="kolo_lewe"/>
-    <origin xyz="0.125 0.125 0" rpy="-1.57 0 0"/>
+    <origin xyz="0.2 0.15 0" rpy="-1.57 0 0"/>
     <axis xyz="0 0 1"/>
   </joint>
-
+  
   <link name="kolo_prawe">
     <visual>
       <geometry>
@@ -72,39 +72,108 @@
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <material name="red"/>
     </visual>
-    <visual>
+    <collision>
       <geometry>
         <cylinder radius="0.1" length="0.05"/>
       </geometry>
       <origin rpy="0 0 0" xyz="0 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="2.5"/>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
+    </inertial>
+  </link>
+  
+  <joint name="z_kolo_prawe" type="continuous">
+    <parent link="obudowa"/>
+    <child link="kolo_prawe"/>
+    <origin xyz="0.2 -0.15 0" rpy="-1.57 0 0"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+  
+  <link name="podpora">
+    <visual>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <material name="blue"/>
     </visual>
+    <collision>
+      <geometry>
+        <sphere radius="0.1"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </collision>
     <inertial>
       <mass value="1.0"/>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
     </inertial>
   </link>
-
-  <joint name="z_kolo_prawe" type="continuous">
+  
+  <joint name="z_podpora" type="fixed">
     <parent link="obudowa"/>
-    <child link="kolo_prawe"/>
-    <origin xyz="0.15 -0.125 0" rpy="-1.57 0 0"/>
+    <child link="podpora"/>
+    <origin xyz="-0.2 0 0" rpy="0 0 0"/>
     <axis xyz="0 0 1"/>
   </joint>
 
-  <link name="kula">
-    <visual>
-    <geometry>
-    <sphere radius="0.05"/>
-    </geometry>
-    <material name="white"/>
-    </visual>
-  </link>
+  <gazebo reference="kolo_lewe">
+    <mu1>0.1</mu1>
+    <mu2>0.1</mu2>
+    <kp>500000.0</kp>
+    <kd>10.0</kd>
+    <minDepth>0.001</minDepth>
+    <maxVel>0.1</maxVel>
+    <fdir1>1 0 0</fdir1>
+    <material>Gazebo/Green</material>
+  </gazebo>
+ 
+  <gazebo reference="kolo_prawe">
+    <mu1>0.1</mu1>
+    <mu2>0.1</mu2>
+    <kp>500000.0</kp>
+    <kd>10.0</kd>
+    <minDepth>0.001</minDepth>
+    <maxVel>0.1</maxVel>
+    <fdir1>1 0 0</fdir1>
+    <material>Gazebo/Red</material>
+  </gazebo>
+ 
+  <gazebo reference="podpora">
+    <mu1>0.01</mu1>
+    <mu2>0.01</mu2>
+    <kp>500000.0</kp>
+    <kd>10.0</kd>
+    <minDepth>0.001</minDepth>
+    <maxVel>0.1</maxVel>
+    <fdir1>1 0 0</fdir1>
+    <material>Gazebo/Blue</material>
+  </gazebo> 
 
-  <joint name="kula_buda" type="continuous">
-    <parent link="obudowa"/>
-    <child link="kula"/>
-    <origin xyz="-0.17 0 -0.05"/>
-  </joint>
+  <gazebo>
+    <plugin name="moj_kontroler" filename="libgazebo_ros_diff_drive.so">
+      <commandTopic>cmd_vel</commandTopic>
+      <odometryTopic>odom</odometryTopic>
+      <odometryFrame>odom</odometryFrame>
+      <odometrySource>world</odometrySource>
+      <publishOdomTF>true</publishOdomTF>
+      <robotBaseFrame>obudowa</robotBaseFrame>
+      <publishWheelTF>false</publishWheelTF>
+      <publishTf>true</publishTf>
+      <publishWheelJointState>true</publishWheelJointState>
+      <legacyMode>false</legacyMode>
+      <updateRate>30</updateRate>
+      <leftJoint>z_kolo_lewe</leftJoint>
+      <rightJoint>z_kolo_prawe</rightJoint>
+      <wheelSeparation>0.3</wheelSeparation>
+      <wheelDiameter>0.2</wheelDiameter>
+      <wheelAcceleration>1</wheelAcceleration>
+      <wheelTorque>10</wheelTorque>
+      <rosDebugLevel>na</rosDebugLevel>
+    </plugin>
+  </gazebo>
 
 </robot>
