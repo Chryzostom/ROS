@@ -1,0 +1,8 @@
+prefix=/home/matsantos/catkin_ws/devel/.private/mobil
+
+Name: mobil
+Description: Description of mobil
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
