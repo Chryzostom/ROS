@@ -1,0 +1,8 @@
+<launch>
+  
+  <node name="slam_node" pkg="gmapping" type="slam_gmapping" output="screen">
+    <param name="base_frame" value="obudowa"/>
+    <remap from="scan" to="laser_scan"/>
+  </node>
+
+</launch>

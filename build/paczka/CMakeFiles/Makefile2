@@ -128,6 +128,7 @@ clean: CMakeFiles/paczka_geneus.dir/clean
 
 # All Build rule for target.
 CMakeFiles/paczka_generate_messages_eus.dir/all: CMakeFiles/std_msgs_generate_messages_eus.dir/all
+CMakeFiles/paczka_generate_messages_eus.dir/all: CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
 CMakeFiles/paczka_generate_messages_eus.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_MovePTP_P.dir/all
 CMakeFiles/paczka_generate_messages_eus.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_Stop.dir/all
 CMakeFiles/paczka_generate_messages_eus.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_MoveLin_P.dir/all
@@ -165,6 +166,7 @@ clean: CMakeFiles/paczka_generate_messages_eus.dir/clean
 
 # All Build rule for target.
 CMakeFiles/paczka_generate_messages_cpp.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+CMakeFiles/paczka_generate_messages_cpp.dir/all: CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 CMakeFiles/paczka_generate_messages_cpp.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_MovePTP_P.dir/all
 CMakeFiles/paczka_generate_messages_cpp.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_Stop.dir/all
 CMakeFiles/paczka_generate_messages_cpp.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_MoveLin_P.dir/all
@@ -873,6 +875,7 @@ clean: CMakeFiles/paczka_genpy.dir/clean
 # Target rules for target CMakeFiles/paczka_generate_messages_nodejs.dir
 
 # All Build rule for target.
+CMakeFiles/paczka_generate_messages_nodejs.dir/all: CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/paczka_generate_messages_nodejs.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_MovePTP_P.dir/all
 CMakeFiles/paczka_generate_messages_nodejs.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_Stop.dir/all
 CMakeFiles/paczka_generate_messages_nodejs.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_MoveLin_P.dir/all
@@ -1112,6 +1115,7 @@ clean: CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
 
 # All Build rule for target.
 CMakeFiles/paczka_generate_messages_lisp.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+CMakeFiles/paczka_generate_messages_lisp.dir/all: CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 CMakeFiles/paczka_generate_messages_lisp.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_MovePTP_P.dir/all
 CMakeFiles/paczka_generate_messages_lisp.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_Stop.dir/all
 CMakeFiles/paczka_generate_messages_lisp.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_MoveLin_P.dir/all
@@ -1277,6 +1281,7 @@ clean: CMakeFiles/_paczka_generate_messages_check_deps_MovePTP_P.dir/clean
 
 # All Build rule for target.
 CMakeFiles/paczka_generate_messages_py.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
+CMakeFiles/paczka_generate_messages_py.dir/all: CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 CMakeFiles/paczka_generate_messages_py.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_MovePTP_P.dir/all
 CMakeFiles/paczka_generate_messages_py.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_Stop.dir/all
 CMakeFiles/paczka_generate_messages_py.dir/all: CMakeFiles/_paczka_generate_messages_check_deps_MoveLin_P.dir/all

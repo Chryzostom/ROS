@@ -61,6 +61,10 @@
         <kinematic>0</kinematic>
       </link>
     </model>
+    <include>
+      <uri>model://sala</uri>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
     <gravity>0 0 -9.8</gravity>
     <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
     <atmosphere type='adiabatic'/>
