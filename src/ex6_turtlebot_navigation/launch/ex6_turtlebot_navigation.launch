@@ -1,0 +1,10 @@
+<launch>
+  
+  <include file="$(find ex6_turtlebot_navigation)/launch/include/gazebo.launch"/>
+  <include file="$(find ex6_turtlebot_navigation)/launch/include/remote.launch"/>
+  <!--<include file="$(find ex6_turtlebot_navigation)/launch/include/joy.launch"/>-->
+  <include file="$(find ex6_turtlebot_navigation)/launch/include/teleop.launch"/>
+  <include file="$(find ex6_turtlebot_navigation)/launch/include/amcl.launch"/>
+  <include file="$(find ex6_turtlebot_navigation)/launch/include/navigation.launch"/>
+
+</launch>

@@ -1,0 +1,12 @@
+<launch>
+  
+  <arg name="map_file" default="$(find ex6_turtlebot_navigation)/maps/mapa.yaml"/>
+  
+  <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)" output="screen"/>
+  
+  <node name="amcl_node" pkg="amcl" type="amcl" output="screen">
+    <param name="scan" value="scan"/>
+    <rosparam command="load" file="$(find ex6_turtlebot_navigation)/config/amcl.yaml"/>
+  </node>
+  
+</launch>

@@ -1,0 +1,8 @@
+<launch>
+  
+  <include file="$(find mobil)/launch/include/sim.launch"/>
+  <include file="$(find mobil)/launch/include/view.launch"/>
+  <include file="$(find mobil)/launch/include/amcl.launch"/>
+  <include file="$(find mobil)/launch/include/navigation.launch"/>
+
+</launch>

@@ -1,1 +1,0 @@
-/home/matsantos/catkin_ws/devel/.private/move_it/lib/pkgconfig/move_it.pc

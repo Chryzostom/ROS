@@ -1,1 +1,0 @@
-/home/matsantos/catkin_ws/devel/.private/paczka/lib/pkgconfig/paczka.pc

@@ -1,0 +1,7 @@
+<launch>
+  
+  <node name="teleop_node" pkg="ex6_turtlebot_navigation" type="joy_teleop.py" output="screen">
+    <rosparam command="load" file="$(find ex6_turtlebot_navigation)/config/teleop.yaml"/>
+  </node>
+
+</launch>

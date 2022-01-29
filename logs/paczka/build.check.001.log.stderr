@@ -1,5 +1,0 @@
-[31m[1mCMake Error[0m at /home/matsantos/catkin_ws/src/paczka/CMakeLists.txt:57 (add_service_files):
-  Unknown CMake command "add_service_files".
-
-
-make: *** [cmake_check_build_system] Error 1

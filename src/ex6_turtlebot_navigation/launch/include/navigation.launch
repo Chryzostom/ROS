@@ -1,0 +1,15 @@
+<launch>
+  
+  <node name="move_base" pkg="move_base" type="move_base" output="screen">
+    <param name="base_global_planner" value="navfn/NavfnROS"/>
+    <param name="base_local_planner" value="dwa_local_planner/DWAPlannerROS"/>
+    <rosparam file="$(find ex6_turtlebot_navigation)/config/move_base_params.yaml" command="load" /> 
+    <rosparam file="$(find ex6_turtlebot_navigation)/config/costmap_common_params.yaml" command="load" ns="global_costmap" /> 
+    <rosparam file="$(find ex6_turtlebot_navigation)/config/costmap_common_params.yaml" command="load" ns="local_costmap" />
+    <rosparam file="$(find ex6_turtlebot_navigation)/config/local_costmap_params.yaml" command="load" />
+    <rosparam file="$(find ex6_turtlebot_navigation)/config/global_costmap_params.yaml" command="load" /> 
+    <rosparam file="$(find ex6_turtlebot_navigation)/config/base_local_planner_params.yaml" command="load" />
+    <rosparam file="$(find ex6_turtlebot_navigation)/config/dwa_local_planner_params.yaml" command="load" />
+  </node>
+
+</launch>

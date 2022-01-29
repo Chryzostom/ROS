@@ -1,1 +1,0 @@
-/home/matsantos/catkin_ws/devel/.private/kair_universalrobot_moveit/lib/pkgconfig/kair_universalrobot_moveit.pc

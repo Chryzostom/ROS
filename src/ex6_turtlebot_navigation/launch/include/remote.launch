@@ -1,0 +1,8 @@
+<launch>
+  
+  <arg name="rvizconfig" default="$(find ex6_turtlebot_navigation)/rviz/turtlebot.rviz" />
+  
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"/>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rvizconfig)" required="true"/>
+
+</launch>

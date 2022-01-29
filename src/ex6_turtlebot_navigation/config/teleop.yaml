@@ -1,0 +1,4 @@
+forward_axis_index: 3
+forward_axis_multiplier: 0.25
+side_axis_index: 2
+side_axis_multiplier: 0.5

@@ -1,0 +1,1 @@
+/home/matsantos/catkin_ws/devel/.private/ex6_turtlebot_navigation/share/ex6_turtlebot_navigation/cmake/ex6_turtlebot_navigationConfig.cmake

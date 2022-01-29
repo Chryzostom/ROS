@@ -1,1 +1,0 @@
-/home/matsantos/catkin_ws/devel/.private/trajektoria_wr/share/trajektoria_wr/cmake/trajektoria_wrConfig-version.cmake

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/matsantos/catkin_ws/devel/.private/ex6_turtlebot_navigation/setup.sh

@@ -1,0 +1,12 @@
+<launch>
+  <!-- wczytaj mape -->
+  <node name="map_server" pkg="map_server" type="map_server" args="$(find mobil)/maps/map01.yaml">
+  </node>
+ 
+  <!-- uruchom lokalizacje -->
+  <node name="amcl" pkg="amcl" type="amcl">
+    <remap from="scan" to="laser_scan"/>
+    <param name="base_frame_id" value="obudowa"/>
+    <rosparam command="load" file="$(find mobil)/config/amcl.yaml"/>
+  </node>
+</launch>

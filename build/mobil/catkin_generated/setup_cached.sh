@@ -8,8 +8,6 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/matsantos/catkin_ws/devel/.private/mobil:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/matsantos/catkin_ws/devel/.private/mobil/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/matsantos/catkin_ws/devel/.private/mobil/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/matsantos/catkin_ws/build/mobil'
 export ROSLISP_PACKAGE_DIRECTORIES="/home/matsantos/catkin_ws/devel/.private/mobil/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/matsantos/catkin_ws/src/mobil:$ROS_PACKAGE_PATH"

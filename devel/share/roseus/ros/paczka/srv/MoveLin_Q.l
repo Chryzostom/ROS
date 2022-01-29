@@ -1,1 +1,0 @@
-/home/matsantos/catkin_ws/devel/.private/paczka/share/roseus/ros/paczka/srv/MoveLin_Q.l

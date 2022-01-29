@@ -1,8 +1,0 @@
-prefix=/home/matsantos/catkin_ws/devel/.private/projekt
-
-Name: projekt
-Description: Description of projekt
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

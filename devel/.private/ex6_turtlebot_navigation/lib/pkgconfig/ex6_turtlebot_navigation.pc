@@ -1,0 +1,8 @@
+prefix=/home/matsantos/catkin_ws/devel/.private/ex6_turtlebot_navigation
+
+Name: ex6_turtlebot_navigation
+Description: Description of ex6_turtlebot_navigation
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
